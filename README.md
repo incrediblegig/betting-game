@@ -1,14 +1,26 @@
-# Bet 5 Game Platform
+# Betting Game Platform
 
 A betting platform for predicting crypto price movements. Enter pool, predict crypto prices and win up to 15x rewards. Prices are monitored by Chainlink price feeds and rewards distribution is automated by Chainlink Keepers. This is the most reliable, secure, tamper-proof and transparent on-chain betting platform out there.
 
-## Shortcomings of centralized platforms:
+## Used tech
+
+* Solidity
+* Polygon
+* Hardhat
+* ethers.js
+* The Graph
+* React.js
+* Material-UI
+
+## Shortcomings of centralized platforms
+
 - The results can be manipulated and made to favor a certain party.
 - User funds can be mishandled as there is no way to track or trace activity.
 - User entries can be hidden to show wrong information to users and steal pool deposits.
 - There is no way to know how points are being calculated and if the winners are actually real winners.
 
-## How our platform solves these problems:
+## How our platform solves these problems
+
 - The Bet 5 platform is decentralized and completely on-chain, making it tamper-proof.
 - Anybody can enter any pool and also view their complete history.
 - All pool funds are stored in the smart contract and their usage is governed by its immutable code.
@@ -74,20 +86,6 @@ npx hardhat deploy --network mumbai --export ./src/ethereum/artifacts.json --tag
 ```
 yarn start
 ```
-
-## Built With
-
-* Solidity
-* Polygon
-* Hardhat
-* ethers.js
-* The Graph
-* React.js
-* Material-UI
-
-## Authors
-
-* **Dhruv Takwal**
 
 ## License
 
