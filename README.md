@@ -37,17 +37,6 @@ These instructions will get you a local copy of the project up and running on yo
 
 Clone the git repo.
 
-```
-git clone https://github.com/dt6120/bet5game.git bet-5-game
-```
-
-Install dependencies.
-
-```
-cd bet-5-game
-yarn
-```
-
 Add env file by copying example.env and filling in your secrets.
 
 ```
